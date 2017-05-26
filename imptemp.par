@@ -1,0 +1,9 @@
+userid="/ as sysdba"
+
+tables=
+CM.TMPJRGG
+
+directory=dumpoldtbl
+content=data_only
+dumpfile=TMP_EXP.dmp
+logfile=TMP_IMP.log
