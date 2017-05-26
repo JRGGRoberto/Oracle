@@ -1,0 +1,12 @@
+userid="/ as sysdba"
+job_name=query_export
+
+query=
+CM.TMPJRGG:"where idteste = 1" 
+
+tables=
+CM.TMPJRGG
+
+directory=dumpoldtbl
+dumpfile=TMP_EXP.dmp
+logfile=TMP_EXP.log  
