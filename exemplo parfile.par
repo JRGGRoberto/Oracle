@@ -1,0 +1,15 @@
+userid="/ as sysdba"
+-- job_name=query_export
+
+query=
+CM.HSTFIPE:"where idhstfipe between 520 and 530", 
+CM.FIPE:"where mesref = 200906"
+
+tables=
+CM.HSTFIPE, 
+CM.FIPE,
+CM.agravamento
+
+directory=dumpoldtbl
+dumpfile=QUERY_EXP.dmp
+logfile=QUERY_EXP.log
